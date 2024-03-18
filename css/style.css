@@ -5,6 +5,18 @@
     padding: 0;
 }
 
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    justify-content: space-between;
+}
+
+
+
+
 
 
 
@@ -26,4 +38,110 @@ header{
     height: 3.5rem;
     background-color: white;
     position: fixed;
+    top: 0;
+}
+
+.introduction{
+    background-color: red;
+    margin: 3.5rem auto 0 auto;
+    width: 75%;
+    height: 35rem;
+    color: black;
+}
+
+.introduction>h1{
+    font-size: 5rem;
+    display: block;
+}
+
+.introduction .left-box{
+    height: 22rem;
+}
+
+.left-box{
+    background-color: blueviolet;
+    width: 35%;
+    min-height: 20rem;
+}
+
+.right-box{
+    background-color: yellow;
+    width: 65%;
+    min-height: 25rem;
+    overflow: visible;
+}
+
+
+/* container centrato */
+.center-box{
+    background-color: gray;
+    width: 60%;
+    min-height: 40rem;
+    margin: 4rem auto 0 auto;
+}
+
+
+/* sezione 1 */
+.first-section>h2{
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#payment-choice2{
+    margin-left: 1.5rem;
+}
+
+
+.first-section .tab{
+    background-color: beige;
+    width: calc(100% / 3 - 1rem);
+    min-height: 35rem;
+    border: solid 0.5px black;
+    margin: 2rem 0; 
+}
+
+.orizontal-tab{
+    background-color: beige;
+    width: 100%;
+    min-height: 10rem;
+    border: solid 0.5px black;
+    margin: 1rem 0 2rem 0;
+}
+
+
+/* sezione 2 */
+.second-section>.flex{
+    flex-direction: row-reverse;
+    margin: 3rem 0;
+}
+
+
+/* sezione 3 */
+.third-section>h2{
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.third-section>.flex{
+    flex-flow: row wrap;
+}
+
+.third-section .tab{
+    background-color: beige;
+    width: calc(100% / 3 - 1rem);
+    min-height: 8rem;
+    margin-bottom: 1rem;
+}
+
+
+/* sezione 4 */
+.fourth-section>h2{
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    width: 60%;
+}
+
+.fourth-section>a{
+    font-size: 1rem;
+    padding: 3.5rem 0;
 }
