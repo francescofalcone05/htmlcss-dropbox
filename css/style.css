@@ -101,7 +101,7 @@ header{
     width: calc(100% / 3 - 1rem);
     min-height: 35rem;
     border: solid 0.5px black;
-    margin: 2rem 0; 
+    margin: 2rem 0;
 }
 
 .orizontal-tab{
@@ -209,4 +209,62 @@ header{
 
 .sixth-section .left-box{
     position: relative;
+}
+
+
+
+/* sezione 7 */
+.seventh-section>h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+.seventh-section>p{
+    width: 100%;
+    position: relative;
+}
+
+.question1{
+    border-top: 0.1rem solid black;
+    border-bottom:  0.05rem solid black;
+    padding: 1rem 0;
+}
+
+.question2{
+    border-bottom: 0.05rem solid black;
+    padding: 1rem 0;
+}
+
+.question3{
+    border-bottom:  0.1rem solid black;
+    padding: 1rem 0;
+    margin-bottom: 5rem;
+}
+
+p>i{
+    position: absolute;
+    right: 5%;
+    top: 1rem;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer-container>.tab{
+    width: calc(100% / 5 - 2rem);
+    min-height: 7rem;
+    padding-top: 3rem;
+    border: dashed white 1px;
+    color: white;
+}
+
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
