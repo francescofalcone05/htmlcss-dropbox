@@ -17,13 +17,11 @@
 .left-box{
     width: 35%;
     min-height: 6rem;
-    border: solid 0.5px black;
 }
 
 .right-box{
     width: 65%;
     min-height: 6rem;
-    border: solid 0.5px black;
 }
 
 
@@ -41,7 +39,7 @@
 
 header{
     width: 100%;
-    min-height:37rem ;
+    min-height:42rem ;
     background-color: rgb(26, 152, 224);
 }
 
@@ -90,6 +88,7 @@ header{
     padding-left: 0;
 }
 
+/* introduzione */
 .introduction{
     margin: calc(3.5rem + 0.1px) auto 0 auto;
     width: 75%;
@@ -100,6 +99,7 @@ header{
 .introduction>h1{
     font-size: 5rem;
     display: block;
+    margin-bottom: 3rem;
 }
 
 .introduction .left-box{
@@ -265,12 +265,27 @@ header{
 }
 
 .second-section .left-box{
-    height: 22rem;
+    height: 30rem;
+}
+
+.second-section .left-box>p{
+    padding: 2rem 1rem;
+}
+
+.second-section .left-box button{
+    margin: 2rem 1rem;
+    background-color: rgb(73, 73, 240);
+    color: white;
+    padding: 0.5rem 0.5rem;
 }
 
 .second-section .right-box{
-    height: 22rem;
+    height: 30rem;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 
 /* sezione 3 */
