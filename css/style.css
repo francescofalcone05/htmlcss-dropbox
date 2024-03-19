@@ -52,6 +52,38 @@ header{
     background-color: white;
     position: fixed;
     top: 0;
+    justify-content: space-between;
+}
+
+.left-bar{
+    min-width: 40%;
+    height: 3.5rem;
+}
+
+.right-bar{
+    min-width: 40%;
+    height: 3.5rem;
+    justify-content: flex-end;
+}
+
+.nav-bar .nav-link{
+    padding: 1rem 0;
+    margin: 0 1.5rem;
+    border-bottom: 0.1px solid transparent;
+}
+
+.nav-bar .nav-link:hover{
+    border-bottom: 0.1px solid blue;
+
+}
+
+
+.right-bar>button{
+    background-color: blue;
+}
+
+,.left-bar>.nav-link:first-child{
+    padding-left: 0.5rem;
 }
 
 .introduction{
@@ -258,7 +290,7 @@ footer{
 .footer-container>.tab{
     width: calc(100% / 5 - 2rem);
     min-height: 7rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     border: dashed white 1px;
     color: white;
 }
@@ -268,3 +300,15 @@ footer{
     margin: 0 auto;
     justify-content: space-between;
 }
+
+.footer-container strong{
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.footer-container span{
+    padding: 0.5rem 0;
+    display: block;
+}
+
+
