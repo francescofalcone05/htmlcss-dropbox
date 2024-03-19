@@ -57,13 +57,13 @@ header{
 
 .left-bar{
     min-width: 40%;
-    height: 3.5rem;
+    
 }
 
 .right-bar{
     min-width: 40%;
-    height: 3.5rem;
     justify-content: flex-end;
+    text-align: center;
 }
 
 .nav-bar .nav-link{
@@ -79,16 +79,20 @@ header{
 
 
 .right-bar>button{
-    background-color: blue;
+    background-color: rgb(98, 98, 248);
+    padding: 0.2rem 0.2rem;
+    margin: calc(1rem - 1px) 0.5rem calc(1rem + 1px) 0;
+    align-items: center;
+    color: white;
 }
 
-,.left-bar>.nav-link:first-child{
-    padding-left: 0.5rem;
+.left-bar>.nav-link:first-child{
+    padding-left: 0;
 }
 
 .introduction{
     background-color: red;
-    margin: 3.5rem auto 0 auto;
+    margin: calc(3.5rem + 0.1px) auto 0 auto;
     width: 75%;
     height: 35rem;
     color: black;
