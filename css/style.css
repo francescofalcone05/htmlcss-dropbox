@@ -23,7 +23,6 @@
 .right-box{
     width: 65%;
     min-height: 6rem;
-    overflow: visible;
     border: solid 0.5px black;
 }
 
@@ -42,8 +41,8 @@
 
 header{
     width: 100%;
-    min-height:30rem ;
-    background-color: aqua;
+    min-height:37rem ;
+    background-color: rgb(26, 152, 224);
 }
 
 .nav-bar{
@@ -53,6 +52,7 @@ header{
     position: fixed;
     top: 0;
     justify-content: space-between;
+    z-index: 999;
 }
 
 .left-bar{
@@ -80,7 +80,7 @@ header{
 
 .right-bar>button{
     background-color: rgb(98, 98, 248);
-    padding: 0.2rem 0.2rem;
+    padding: 0.3rem 0.4rem;
     margin: calc(1rem - 1px) 0.5rem calc(1rem + 1px) 0;
     align-items: center;
     color: white;
@@ -91,7 +91,6 @@ header{
 }
 
 .introduction{
-    background-color: red;
     margin: calc(3.5rem + 0.1px) auto 0 auto;
     width: 75%;
     height: 35rem;
@@ -105,12 +104,39 @@ header{
 
 .introduction .left-box{
     height: 22rem;
+    flex-direction: column;
+}
+
+.introduction .left-box>p{
+    padding-right: 1rem;
+}
+
+.introduction .left-box button{
+    margin: 2rem 0;
+    background-color: rgb(73, 73, 240);
+    color: white;
+    padding: 0.5rem 0.5rem;
+}
+
+.left-box .fa-arrow-down{
+    margin-top: 4.5rem;
+    margin-left: 0.4rem;
+    transform: scale(2);
 }
 
 .introduction .right-box{
     height: 25rem;
+    position: relative;
+    overflow: visible;
 }
 
+.right-box>img{
+    position: absolute;
+    top:-5.7rem;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
 
 
 /* container centrato */
@@ -124,8 +150,10 @@ header{
 .first-section>h2{
     padding: 1.5rem 0;
     font-size: 2rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
+
+
 
 #payment-choice2{
     margin-left: 1.5rem;
@@ -133,19 +161,100 @@ header{
 
 
 .first-section .tab{
-    background-color: beige;
     width: calc(100% / 3 - 1rem);
     min-height: 35rem;
-    border: solid 0.5px black;
+    border: solid 0.1px black;
+    border-bottom: none;
     margin: 2rem 0;
 }
 
+.title-tab{
+    margin: 0.3rem auto;
+    text-align: center;
+    border-bottom:solid 0.1px black ;
+}
+
+.level>strong{
+    font-size: 1.5rem;
+}
+
+.first-section .tab-container{
+    padding: 1rem 1rem;
+}
+
+.level>span{
+    display: block;
+    padding-top: 0.5rem;
+}
+
+.details-level{
+    margin: 2rem 0;
+}
+
+.details-level>span{
+    display: block;
+    padding: 1rem 0;
+}
+
+.tab-container>button{
+    background-color: rgb(73, 73, 240);
+    padding: 0.4rem 0.8rem;
+    color: white;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.tab-container>hr{
+    width: 15%;
+    margin: 1.5rem 0;
+
+}
+
+.main-points>span{
+    display: block;
+    padding-top: 0.5rem;
+}
+
+.main-points .fa-check{
+    color: blue;
+}
+
+
+
+
+
+
 .orizontal-tab{
-    background-color: beige;
     width: 100%;
     min-height: 10rem;
-    border: solid 0.5px black;
+    border: solid 0.1px black;
+    border-bottom: none;
     margin: 1rem 0 2rem 0;
+}
+
+.orizontal-tab .left-container{
+    width: 70%;
+    min-height: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.orizontal-tab .right-container{
+    width: 30%;
+    min-height: 4rem;
+    margin-top: 1rem;
+
+}
+
+.right-container>button{
+    background-color: rgb(73, 73, 240);
+    padding: 0.4rem 0.8rem;
+    color: white;
+    width: 85%;
+}
+
+.left-container>p{
+    margin: 2rem 0;
 }
 
 
