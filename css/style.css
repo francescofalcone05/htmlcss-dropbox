@@ -474,12 +474,28 @@ header{
     display: none;
 }
 
+.question1:hover  .hidden1 {
+    display: initial;
+}
+
+.question1:hover #rotate1{
+    transform: rotate(180deg);
+}
+
 .question2>p:first-child{
     padding: 1rem 0;
 }
 
 .hidden2{
     display: none;
+}
+
+.question2:hover  .hidden2 {
+    display: initial;
+}
+
+.question2:hover #rotate2{
+    transform: rotate(180deg);
 }
 
 .question3>p:first-child{
@@ -490,8 +506,12 @@ header{
     display: none;
 }
 
-.question1:hover + .hidden1 {
+.question3:hover  .hidden3 {
     display: initial;
+}
+
+.question3:hover #rotate3{
+    transform: rotate(180deg);
 }
 
 p>i{
