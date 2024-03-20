@@ -39,7 +39,7 @@
 
 header{
     width: 100%;
-    min-height:42rem ;
+    min-height:35rem ;
     background-color: rgb(26, 152, 224);
 }
 
@@ -132,7 +132,7 @@ header{
 
 .right-box>img{
     position: absolute;
-    top:-5.7rem;
+    top:0;
     left: 0;
     width: 100%;
     height: fit-content;
@@ -299,14 +299,20 @@ header{
 }
 
 .third-section .tab{
-    background-color: beige;
     width: calc(100% / 3 - 1rem);
     min-height: 18rem;
     margin-bottom: 1rem;
-    border: solid 0.5px black;
-
 }
 
+.third-section .tab>img{
+    width: 100%;
+    height: fit-content;
+}
+
+.third-section .tab>h3{
+    padding: 1rem 0;
+
+}
 
 /* sezione 4 */
 .fourth-section>h2{
