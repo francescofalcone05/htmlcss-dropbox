@@ -68,6 +68,7 @@ header{
     padding: 1rem 0;
     margin: 0 1.5rem;
     border-bottom: 0.1px solid transparent;
+    cursor: pointer;
 }
 
 .nav-bar .nav-link:hover{
@@ -84,6 +85,8 @@ header{
     color: white;
     font-size: 0.7rem;
     border: none;
+    cursor: pointer;
+
 }
 
 .left-bar>.nav-link:first-child{
@@ -118,12 +121,14 @@ header{
     background-color: rgb(73, 73, 240);
     color: white;
     padding: 0.5rem 0.5rem;
+    cursor: pointer;
 }
 
 .left-box .fa-arrow-down{
     margin-top: 6rem;
     margin-left: 0.4rem;
     transform: scale(2);
+    cursor: pointer;
 }
 
 .introduction .right-box{
@@ -204,6 +209,7 @@ header{
     color: white;
     width: 100%;
     margin: 1.5rem 0;
+    cursor: pointer;
 }
 
 .tab-container>hr{
@@ -253,6 +259,7 @@ header{
     padding: 0.4rem 0.8rem;
     color: white;
     width: 85%;
+    cursor: pointer;
 }
 
 .left-container>p{
@@ -279,6 +286,7 @@ header{
     background-color: rgb(73, 73, 240);
     color: white;
     padding: 0.5rem 0.5rem;
+    cursor: pointer;
 }
 
 .second-section .right-box{
@@ -326,6 +334,7 @@ header{
 .fourth-section>a{
     font-size: 1rem;
     padding: 3.5rem 0;
+    cursor: pointer;
 }
 
 
@@ -359,6 +368,7 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
     filter: invert(1);
+    cursor: pointer;
 }
 
 .first-logo{
@@ -440,6 +450,7 @@ header{
     top:4.5rem;
     left: 0;
     border: none;
+    cursor: pointer;
 }
 
 .sixth-section .left-box{
@@ -464,6 +475,7 @@ header{
     border-bottom: 1px solid black;
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .question1>p:first-child{
@@ -548,6 +560,7 @@ footer{
 .footer-container span{
     padding: 0.5rem 0;
     display: block;
+    cursor: pointer;
 }
 
 .footer-container>.tab>hr{
@@ -560,4 +573,5 @@ footer{
     font-size: 0.7rem;
     color: gray;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
