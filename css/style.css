@@ -348,6 +348,16 @@ header{
     width: calc(50%);
     height: 50%;
     border: solid 0.5px black;
+    position: relative;
+}
+
+.fifth-section .logo>img{
+    width: 10rem;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
@@ -425,7 +435,6 @@ footer{
     width: calc(100% / 5 - 2rem);
     min-height: 7rem;
     padding-top: 2rem;
-    border: dashed white 1px;
     color: white;
 }
 
@@ -445,4 +454,14 @@ footer{
     display: block;
 }
 
+.footer-container>.tab>hr{
+    color: white;
+    width: 45%;
+    margin: 2rem 0 1rem 0;
+}
 
+.lenguage{
+    font-size: 0.7rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
