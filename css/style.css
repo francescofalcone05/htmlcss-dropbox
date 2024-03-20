@@ -335,7 +335,6 @@ header{
 }
 
 .fifth-section>.tab{
-    border: solid 0.5px black;
     width: calc(100% /3);
     min-height: 6rem;
 }
@@ -347,7 +346,6 @@ header{
 .fifth-section .logo{
     width: calc(50%);
     height: 50%;
-    border: solid 0.5px black;
     position: relative;
 }
 
@@ -358,6 +356,63 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    filter: invert(1);
+}
+
+.first-logo{
+    background-color:rgb(104, 160, 104) ;
+
+}
+.second-logo{
+    background-color:rgb(145, 26, 50) ;
+    
+}
+.third-logo{
+    background-color:rgb(70, 70, 179) ;
+    
+}
+.fourth-logo{
+    background-color:red ;
+    
+}
+.fifth-logo{
+    background-color:crimson ;
+    
+}
+.sixth-logo{
+    background-color:aqua ;
+    
+}
+.seventh-logo{
+    background-color:rgb(4, 4, 148) ;
+    
+}
+.heigth-logo{
+    background-color:yellow ;
+    
+}
+
+.fifth-section .description-logo{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.fifth-section .description-logo>img{
+    width: 40%;
+    height: fit-content;
+}
+
+.description-logo>hr{
+    width: 15%;
+    margin: 2rem 0;
+}
+
+.description-logo>span{
+    color: gray;
+    display: block;
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
 
 
@@ -374,13 +429,15 @@ header{
 .sixth-section h2{
     font-size: 2rem;
     padding: 4rem 5rem 4rem 0;
+    color: rgb(117, 14, 35);
 }
 
 .left-box>button{
-    padding: 0.2rem 1rem;
+    padding: 0.4rem 1rem;
     position: absolute;
     top:4.5rem;
     left: 0;
+    border: none;
 }
 
 .sixth-section .left-box{
