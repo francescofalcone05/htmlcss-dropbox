@@ -171,7 +171,6 @@ header{
     width: calc(100% / 3 - 1rem);
     min-height: 35rem;
     border: solid 0.1px black;
-    border-bottom: none;
     margin: 2rem 0;
 }
 
@@ -236,7 +235,6 @@ header{
     width: 100%;
     min-height: 10rem;
     border: solid 0.1px black;
-    border-bottom: none;
     margin: 1rem 0 2rem 0;
 }
 
@@ -347,7 +345,7 @@ header{
 
 .fifth-section>.tab{
     width: calc(100% /3);
-    min-height: 6rem;
+    height: calc(100vw / 3);
 }
 
 .fifth-section>.flex{
